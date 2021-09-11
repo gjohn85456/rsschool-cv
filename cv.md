@@ -24,7 +24,7 @@ I worked for many years in a large company in the IT department. There are many 
 ***
 ## **Scills**:
 
-   ### basic:
+### basic:
 * JavaScript
 * HTML/BEM
 * CSS/SASS
@@ -35,7 +35,7 @@ I worked for many years in a large company in the IT department. There are many 
 ***
 ## **Code Exempele**
 
-### HTML exeple from this [site](http://p91241kr.beget.tech/)
+### HTML exempele from this [site](http://p91241kr.beget.tech/)
 ```html
 <nav class="b-menu b-menu_background">
     <div class="b-menu__content b-menu__content_adaptive container">
