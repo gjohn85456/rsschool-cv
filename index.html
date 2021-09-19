@@ -13,9 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
 
-  <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script> -->
+
 </head>
 
 <body>
@@ -25,13 +23,12 @@
         <a href="https://rs.school/js/" target="_blank">
           <img class="icon_rs_school" src="img/rs_school_js.svg" alt="rs_school_js_logo" width="553" height="205">
         </a>
-        <section class="anchors">
+        <div class="anchors">
           <a href="#contact">
             <img class="icon_size" src="img/contact.png" alt="conact_anchor" title="contact" width="512" height="512">
           </a>
           <a href="#main_text">
-            <img class="icon_size" src="img/about me.png" alt="main_text_anchor" title="about me" width="512"
-              height="512">
+            <img class="icon_size" src="img/about_me.png" alt="about_me" title="about me" width="512" height="512">
           </a>
           <a href="#skills">
             <img class="icon_size" src="img/skills.png" alt="skills_anchor" title="skills" width="512" height="512">
@@ -61,7 +58,7 @@
           <a href="#youtube">
             <img class="icon_size" src="img/youtube.png" alt="youtube" title="youtube" width="50" height="50">
           </a>
-        </section>
+        </div>
       </div>
     </div>
   </nav>
@@ -73,7 +70,7 @@
     </header>
 
     <div class="wrapper">
-      <!-- ------------------------Contact---------------------- -->
+      <!-- Contact -->
       <article id="contact" class="cell contact">
         <h2 class="block_header">Contacts</h2>
         <img class="contact_picture" src="img/CV_foto_123.png" alt="contact_picture" width="1319" height="1152">
@@ -101,28 +98,28 @@
               <img class="contact__icon_size" src="img/github_contact.png" alt="github_contact" width="512"
                 height="512">
             </a>
-            <a href="https://github.com/gjohn85456"">gjohn85456</a>
+            <a href="https://github.com/gjohn85456">gjohn85456</a>
           </li>
         </ul>
-            </article>
-            <!-- ------------------------About me---------------------- -->
-            <article id=" main_text" class="cell">
-              <h2 class="block_header">About me</h2>
-              <p class="main_text">
-                I like sports, do not smoke, rarely drink, I am fond of hiking. I passed
-                routes in the
-                Crimea, Arkhyz, Jordan, Kamchatka, Peru, Altai.
-
-                I worked for many years in a large company in the IT department. There are many areas in
-                this department and I work in technical support for users. Unfortunately, I don’t have
-                the opportunity to grow professionally at my current job, so I decided to become a
-                programmer. I understand that most likely I will need to move to another city for work,
-                I am ready for this. But this profession allows me to work remotely, so in the future I
-                will be able to live wherever I want.
-              </p>
       </article>
-      <!-- ------------------------Skills---------------------- -->
-      <article id="skills" class="cell">
+      <!-- About me -->
+      <article class="cell" id="main_text">
+        <h2 class="block_header">About me</h2>
+        <p class="main_text">
+          I like sports, do not smoke, rarely drink, I am fond of hiking. I passed
+          routes in the
+          Crimea, Arkhyz, Jordan, Kamchatka, Peru, Altai.
+
+          I worked for many years in a large company in the IT department. There are many areas in
+          this department and I work in technical support for users. Unfortunately, I don’t have
+          the opportunity to grow professionally at my current job, so I decided to become a
+          programmer. I understand that most likely I will need to move to another city for work,
+          I am ready for this. But this profession allows me to work remotely, so in the future I
+          will be able to live wherever I want.
+        </p>
+      </article>
+      <!-- Skills -->
+      <article class="cell" id="skills">
         <h2 class="block_header">Basic skills</h2>
         <div class="skills">
           <section>
@@ -164,8 +161,8 @@
         </div>
 
       </article>
-      <!-- ----------------------Experience------------------------ -->
-      <article id="experience" class="cell">
+      <!-- Experience -->
+      <article class="cell" id="experience">
         <h2 class="block_header">Experience</h2>
         <div class="experience">
           <section class="experience_site">
@@ -226,42 +223,42 @@
           </section>
         </div>
       </article>
-      <!-- ----------------------HTML------------------------ -->
-      <article id="html" class="cell">
+      <!-- HTML -->
+      <article class="cell" id="html">
         <h2 class="block_header">HTML</h2>
         <h5 class="code_html">Code example</h5>
         <pre><code class="html_my_style">
-    &ltnav class="b-menu b-menu_background"&gt
-    &ltdiv class="b-menu__content b-menu__content_adaptive container"&gt
-        &ltdiv class="b-menu__leftPart"&gt
-            &lta href="index.html"&gt
-                &ltimg src="img/LogoTop.svg" alt="logo" class="b-menu__logo"&gt
-            &lt/a&gt
-            &lta href="#"&gt
-                &ltimg src="img/magnifierTop.svg" alt="magnifier" class="b-menu__magnifier"&gt
-            &lt/a&gt
-        &lt/div&gt
-        &ltdiv class="b-menu__rightPart"&gt
-            &lta href="#"&gt
-                &ltimg src="img/menuTop.svg" alt="menu" class="b-menu__miniMenu"&gt
-            &lt/a&gt
-            &lta href="#"&gt
-                &ltimg src="img/logInTop.svg" alt="logIn" class="b-menu__LogIn"&gt
-            &lt/a&gt
-            &ltspan class="bay b-menu__cart"&gt
-                &lta href="cart.html"&gt
-                    &ltimg src="img/ShoppingBasketTop.svg" alt="ShoppingBasket"
-                    class="b-menu__cartLogo"&gt
-                &lt/a&gt
-                &ltspan&gt class="b-menu__itemInCart"&gt5&lt/span&gt
-            &lt/span&gt
-        &lt/div&gt
-    &lt/div&gt
-    &lt/nav&gt
+    &lt;nav class="b-menu b-menu_background"&gt;
+    &lt;div class="b-menu__content b-menu__content_adaptive container"&gt;
+        &lt;div class="b-menu__leftPart"&gt;
+            &lt;a href="index.html"&gt;
+                &lt;img src="img/LogoTop.svg" alt="logo" class="b-menu__logo"&gt;
+            &lt;/a&gt;
+            &lt;a href="#"&gt;
+                &lt;img src="img/magnifierTop.svg" alt="magnifier" class="b-menu__magnifier"&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="b-menu__rightPart"&gt;
+            &lt;a href="#"&gt;
+                &lt;img src="img/menuTop.svg" alt="menu" class="b-menu__miniMenu"&gt;
+            &lt;/a&gt;
+            &lt;a href="#"&gt;
+                &lt;img src="img/logInTop.svg" alt="logIn" class="b-menu__LogIn"&gt;
+            &lt;/a&gt;
+            &lt;span class="bay b-menu__cart"&gt;
+                &lt;a href="cart.html"&gt;
+                    &lt;img src="img/ShoppingBasketTop.svg" alt="ShoppingBasket"
+                    class="b-menu__cartLogo"&gt;
+                &lt;/a&gt;
+                &lt;span&gt; class="b-menu__itemInCart"&gt;5&lt;/span&gt;
+            &lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/nav&gt;
                 </code></pre>
       </article>
-      <!-- ----------------------JS------------------------ -->
-      <article id="js" class="cell">
+      <!-- JS -->
+      <article class="cell" id="js">
         <h2 class="block_header">Java script</h2>
         <h5 class="code_html">Code example</h5>
         <pre><code class="html_my_style">
@@ -295,8 +292,8 @@
 
                 </code></pre>
       </article>
-      <!-- ----------------------Education------------------------ -->
-      <article id="education" class="cell">
+      <!-- Education -->
+      <article class="cell" id="education">
         <h2 class="block_header">Education</h2>
         <p class="main_text">2002-2007 South Ural State University | National Research University (Chelyabinsk,
           Russia)
@@ -305,8 +302,8 @@
         </p>
 
       </article>
-      <!-- ----------------------English------------------------ -->
-      <article id="english" class="cell">
+      <!-- English -->
+      <article class="cell" id="english">
         <h2 class="block_header">English</h2>
         <p class="main_text">
           A2. I have quite a lot of travel experience. In 2020, I was in Peru, it was a completely independent
@@ -314,16 +311,17 @@
         </p>
       </article>
     </div>
-    <div id="youtube" class="youtube_video">
+    <div class="youtube_video" id="youtube">
       <iframe src="https://www.youtube.com/embed/YKAp8di58IU" width="560" height="315" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
     </div>
   </main>
 
   <footer class="footer_margin backgound_yellow">
     <div class="container">
-      <section class="footer_reference">
+      <div class="footer_reference">
         <a href="https://rs.school/js/" target="blank">
           <img class="icon_rs_school" src="img/rs_school_js.svg" alt="rs_school_js_logo" width="553" height="205">
         </a>
@@ -339,7 +337,7 @@
         <a href="#menu" target="blank">
           <img class="footer_icon" src="img/up.png" alt="up" width="60" height="60">
         </a>
-      </section>
+      </div>
 
 
       <section class="rights">
