@@ -1,0 +1,470 @@
+* {
+  margin: 0;
+  font-family: Lato, sans-serif;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-family: Inter,sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.backgound_yellow {
+  background: #EFB815;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: block;
+    text-align: center;
+  }
+}
+
+.anchors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  .anchors {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 520px) {
+  .anchors {
+    width: 100%;
+  }
+}
+
+.icon_size {
+  height: 35px;
+  width: 35px;
+}
+
+@media (max-width: 520px) {
+  .icon_size {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+.icon_rs_school {
+  height: 50px;
+  width: 135px;
+}
+
+@media (max-width: 520px) {
+  .icon_rs_school {
+    height: 35px;
+    width: 100px;
+  }
+}
+
+.header_cv {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: -1;
+}
+
+@media (max-width: 520px) {
+  .header_cv {
+    margin-top: 25px;
+  }
+}
+
+.header_cv_name {
+  position: relative;
+  width: 520px;
+  height: 85px;
+  border: 2px solid #333333;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 20px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #242732;
+}
+
+@media (max-width: 520px) {
+  .header_cv_name {
+    width: 310px;
+    height: 45px;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+}
+
+.header_cv_profession {
+  position: absolute;
+  width: 210px;
+  height: 30px;
+  top: 198px;
+  background-color: #ffffff;
+  padding: 5px;
+  z-index: 1;
+  border: 2px solid #333333;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .header_cv_profession {
+    top: 245px;
+  }
+}
+
+@media (max-width: 520px) {
+  .header_cv_profession {
+    font-size: 10px;
+    width: 90px;
+    height: 14px;
+    top: 175px;
+  }
+}
+
+.wrapper {
+  margin-top: 80px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(500px, 500px))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(500px, 500px));
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (max-width: 520px) {
+  .wrapper {
+    margin-top: 40px;
+    -ms-grid-columns: (minmax(300px, 300px))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+  }
+}
+
+.cell {
+  position: relative;
+  border: solid;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.block_header {
+  position: absolute;
+  top: -23px;
+  left: 150px;
+  width: 165px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 5px;
+  z-index: 1;
+  border: 2px solid #333333;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+@media (max-width: 520px) {
+  .block_header {
+    left: 60px;
+  }
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact_picture {
+  margin-top: 25px;
+  height: 240px;
+  width: 265px;
+  border-radius: 20px 0 0 20px;
+}
+
+@media (max-width: 520px) {
+  .contact_picture {
+    border-radius: 0;
+    height: 256px;
+    width: 295px;
+  }
+}
+
+.contact_list {
+  margin-top: 30px;
+}
+
+@media (max-width: 520px) {
+  .contact {
+    -webkit-box-pack: none;
+        -ms-flex-pack: none;
+            justify-content: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.contact__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact__icon_size {
+  height: 25px;
+  width: 25px;
+  padding-right: 10px;
+}
+
+.contact__icon_position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+@media (max-width: 520px) {
+  .contact__icon_position {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.main_text {
+  margin-top: 20px;
+  padding: 10px;
+  line-height: 22px;
+  font-style: italic;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 25px;
+}
+
+.skills_header {
+  text-align: center;
+}
+
+.skills_code {
+  list-style-type: none;
+}
+
+.skills_text {
+  text-align: center;
+}
+
+.experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.experience_header {
+  text-align: center;
+}
+
+.experience_text {
+  margin-top: 10px;
+  padding: 10px;
+  line-height: 22px;
+  font-style: italic;
+}
+
+.experience_site {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+@media (max-width: 520px) {
+  .experience_site {
+    width: 100%;
+  }
+}
+
+.experience_site_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  height: 280px;
+}
+
+.experience_codewars {
+  width: 50%;
+}
+
+@media (max-width: 520px) {
+  .experience_codewars {
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 520px) {
+  .experience {
+    display: block;
+  }
+}
+
+.task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.task_kyu {
+  width: 60px;
+  height: 40px;
+}
+
+.task_text {
+  font-size: 13px;
+}
+
+.html_my_style {
+  font-size: 10px;
+  margin: 15px;
+}
+
+.html {
+  background-color: #EFB815;
+}
+
+.code_html {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.youtube_video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+}
+
+.footer_margin {
+  margin-top: 40px;
+}
+
+.footer_reference {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 520px) {
+  .footer_icon {
+    height: 35px;
+    width: 35px;
+  }
+}
+
+.rights {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (max-width: 520px) {
+  .rights {
+    margin-top: 10px;
+  }
+}
+
+.rights_text {
+  font-size: 11px;
+}
+
+.rights_reference {
+  text-decoration: none;
+  color: #000000;
+}
+/*# sourceMappingURL=style.css.map */
